@@ -1,0 +1,29 @@
+.jsButton {
+  color: rgb(21, 214, 188);
+  background-color: rgb(140, 0, 255);
+  border-radius: 5px;
+  margin: 0px;
+  transition: 0.7s;
+}
+.jsButton:hover {
+  color: rgb(140, 0, 255);
+  background-color: rgb(21, 214, 188);
+  cursor: pointer;
+}
+.initalButton {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100px;
+  width: 300px;
+  border-radius: 15px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  transition: 0.7s;
+}
+.initalButton:hover {
+  color: black;
+  background-color: white;
+}
