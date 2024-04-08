@@ -10,6 +10,16 @@
   <div>
     <button onclick="createButton()" class="initalButton">Click Me</button>
   </div>
-  <script src="Script.js"></script>
+  <script>
+    function createButton() {
+  let button = document.createElement('button');
+
+  button.innerHTML = 'Click Me';
+  button.onclick = createButton;
+  button.classList = 'jsButton';
+
+  document.body.appendChild(button);
+};
+  </script>
 </body>
 </html>
